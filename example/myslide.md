@@ -1,13 +1,13 @@
-# My Beautiful Slide
+# 我的幻灯片
 
-## Introduction
+## 介绍
 
 ### Welcome
 
 - item 1
 - item 2
 
-### local image
+### 本地图片
 
 ![](assets/2019-01-16-20-20-09.png)
 

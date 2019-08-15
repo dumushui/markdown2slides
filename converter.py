@@ -20,10 +20,10 @@ class MarkdownConverter():
         self.working_folder = Path(self.source_md_fname).parent
         self.code_dir = Path(__file__).absolute().parent
         config_json_fname = kwargs['path']
-        with open(config_json_fname) as f:
+        with open(config_json_fname, encoding='utf-8') as f:
             self.config = json.load(f)
         self.temp_md_fname = self.working_folder/"temp.md"
-        with open(self.source_md_fname) as f:
+        with open(self.source_md_fname, encoding='utf-8') as f:
             self.md_content = f.read()
         self.download_dir = self.working_folder / 'downloaded_images'
 
